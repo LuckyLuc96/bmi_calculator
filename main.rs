@@ -35,7 +35,7 @@ fn main() {
     
 }
 
-// UI below. Beware
+// UI below. Does nothing so far. 
 
 /* Ice needs:
 State — the state of your application
