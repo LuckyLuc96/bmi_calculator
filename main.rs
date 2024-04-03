@@ -3,11 +3,11 @@
 use std::io;
 use iced::widget::{button, column, text, Column};
 fn kgconversion(weight: f32) -> f32 {
-    let kg:f32 = 0.4535; // Pound per Kilogram
+    let kg:f32 = 0.4535; // Kilogram per Pound
     weight * kg
 }
 fn meterconversion(height:f32) -> f32 {
-    let meter:f32 = 0.0254; // Inches per Meter
+    let meter:f32 = 0.0254; // Meters per Inch
     height * meter
 }
 
